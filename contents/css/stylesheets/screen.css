@@ -1,0 +1,152 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, .hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  display: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, .hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 12, ../sass/screen.scss */
+body {
+  text-align: center;
+}
+/* line 14, ../sass/screen.scss */
+body header {
+  padding: 30px;
+  background: black;
+  width: 40%;
+  height: 200px;
+  margin-left: 0;
+  float: left;
+}
+/* line 22, ../sass/screen.scss */
+body header nav, body header footer {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid pink;
+}
+/* line 27, ../sass/screen.scss */
+body header #navRight, body header #navLeft {
+  width: 90px;
+  background: #ff0000;
+}
+/* line 31, ../sass/screen.scss */
+body header #navLeft {
+  float: left;
+}
+/* line 34, ../sass/screen.scss */
+body header #navRight {
+  float: right;
+}
+/* line 37, ../sass/screen.scss */
+body header .clearfix {
+  clear: both;
+}
+/* line 40, ../sass/screen.scss */
+body header footer {
+  background: #d3d3d3;
+  margin-top: 30px;
+}
+
+/* line 47, ../sass/screen.scss */
+article {
+  padding: 30px;
+  background: black;
+  float: right;
+  width: 40%;
+  height: 200px;
+  text-align: center;
+}
+/* line 54, ../sass/screen.scss */
+article nav {
+  padding: 5px;
+}
+/* line 57, ../sass/screen.scss */
+article > nav {
+  background: pink;
+  height: 200px;
+  border: 1px solid pink;
+}
+/* line 61, ../sass/screen.scss */
+article > nav > nav {
+  background: black;
+  height: 150px;
+  color: pink;
+  border: 1px solid black;
+}
+/* line 66, ../sass/screen.scss */
+article > nav > nav > nav {
+  background: pink;
+  height: 100px;
+  border: 1px solid pink;
+  color: black;
+}
+/* line 71, ../sass/screen.scss */
+article > nav > nav > nav > nav {
+  background: black;
+  height: 50px;
+  color: pink;
+  border: 1px solid black;
+}
